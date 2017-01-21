@@ -99,5 +99,66 @@
         android:layout_below="@+id/button3"
         android:layout_toRightOf="@+id/textView"
         android:layout_toEndOf="@+id/textView" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bounce"
+        android:onClick="bounce"
+        android:id="@+id/buttonbounce"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
 
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sequential"
+        android:onClick="sequential"
+        android:id="@+id/button5sequential"
+        android:layout_below="@+id/button5"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="slidedown"
+        android:onClick="slidedown"
+        android:id="@+id/button6slidedown"
+        android:layout_below="@+id/button6"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="slideup"
+        android:onClick="slideup"
+        android:id="@+id/button6slideup"
+        android:layout_below="@+id/button6slidedown"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zoomin"
+        android:onClick="zoomin"
+        android:id="@+id/button5zoomin"
+        android:layout_below="@+id/button5sequential"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zoomout"
+        android:onClick="zoomout"
+        android:id="@+id/buttonzoomoout"
+        android:layout_below="@+id/buttonbounce"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        />
 </RelativeLayout>

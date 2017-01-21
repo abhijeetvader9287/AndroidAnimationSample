@@ -24,7 +24,48 @@ protected void onCreate(Bundle savedInstanceState) {
                 R.anim.clockwise);
         image.startAnimation(animation1);
     }
-
+    public void sequential(View view){
+        ImageView image = (ImageView)findViewById(R.id.imageView);
+        Animation animation1 =
+                AnimationUtils.loadAnimation(getApplicationContext(),
+                        R.anim.sequential);
+        image.startAnimation(animation1);
+    }
+    public void slidedown(View view){
+        ImageView image = (ImageView)findViewById(R.id.imageView);
+        Animation animation1 =
+                AnimationUtils.loadAnimation(getApplicationContext(),
+                        R.anim.slide_down);
+        image.startAnimation(animation1);
+    }
+    public void slideup(View view){
+        ImageView image = (ImageView)findViewById(R.id.imageView);
+        Animation animation1 =
+                AnimationUtils.loadAnimation(getApplicationContext(),
+                        R.anim.slide_up);
+        image.startAnimation(animation1);
+    }
+    public void zoomin(View view){
+        ImageView image = (ImageView)findViewById(R.id.imageView);
+        Animation animation1 =
+                AnimationUtils.loadAnimation(getApplicationContext(),
+                        R.anim.zoom_in);
+        image.startAnimation(animation1);
+    }
+    public void zoomout(View view){
+        ImageView image = (ImageView)findViewById(R.id.imageView);
+        Animation animation1 =
+                AnimationUtils.loadAnimation(getApplicationContext(),
+                        R.anim.zoom_out);
+        image.startAnimation(animation1);
+    }
+    public void bounce(View view){
+        ImageView image = (ImageView)findViewById(R.id.imageView);
+        Animation animation1 =
+                AnimationUtils.loadAnimation(getApplicationContext(),
+                        R.anim.bounce);
+        image.startAnimation(animation1);
+    }
     public void fade(View view){
         ImageView image = (ImageView)findViewById(R.id.imageView);
         Animation animation1 =
@@ -32,7 +73,6 @@ protected void onCreate(Bundle savedInstanceState) {
                         R.anim.fade);
         image.startAnimation(animation1);
     }
-
     public void blink(View view){
         ImageView image = (ImageView)findViewById(R.id.imageView);
         Animation animation1 =
